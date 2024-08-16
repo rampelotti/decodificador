@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="shortcut icon" href="./assets/img/logoAlura.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css">      
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap">
+</head>
+<body>
+    <header>
+        <figure class="logo">
+            <img src="./assets/img/logoAlura.png" alt="Logo Alura">
+        </figure>
+    </header>      
+
+    <main>
+        <section class="container-digitar">
+            <div class="area-encriptografar">
+                <textarea id="textoEncriptar" placeholder="Digite seu texto"></textarea>
+                <div class="botoes-enc-desc">
+                    <button id="botao1" class="btn-criptografar" type="button">Criptografar</button>
+                    <button id="botao2" class="btn-descriptografar" type="button">Descriptografar</button>
+                    <button id="botaoReset" class="btn-reset" type="button" style="display: none;">Resetar</button> <!-- Novo botão de reset -->
+                </div>
+            </div>
+        </section>
+        
+        <section class="container-descriptografar">
+            <div class="area-descriptografar">
+                <textarea id="textoDescriptar" readonly></textarea>
+                <img id="img2" src="./assets/img/imagem2.png" alt="Imagem Descriptografar">
+                <h2 id="aviso1">Nenhuma mensagem encontrada</h2>
+                <p id="aviso2">Digite um texto que você deseja criptografar ou descriptografar</p>                
+                <div class="botao-copiar">
+                    <button id="botaoCopiar" class="btn-copiar" type="button">Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./assets/js/main.js" type="text/javascript"></script>
+</body>
+</html>
