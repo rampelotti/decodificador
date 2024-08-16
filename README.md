@@ -6,7 +6,7 @@ Este é um projeto de decodificador desenvolvido para o curso One - Oracle Next 
 
 - **Criptografia e Descriptografia**: Permite a criptografia e descriptografar de mensagens.
 - **Interface Intuitiva**: Design simples e fácil de usar.
-- **Responsivo**: Layout adaptado para diferentes tamanhos de tela, incluindo tablets e celulares.
+- **Responsivo**: Layout adaptado para diferentes tamanhos de tela, incluindo tablets e celulares. O design se ajusta automaticamente para garantir uma boa experiência de usuário em dispositivos móveis e tablets, com botões e containers posicionados adequadamente.
 - **Botão de Reset**: Um botão de reset foi adicionado para limpar as mensagens, tornando o uso mais dinâmico. Este botão aparece somente após a criptografia de uma mensagem.
 
 ## Tecnologias Utilizadas
@@ -26,8 +26,14 @@ Este é um projeto de decodificador desenvolvido para o curso One - Oracle Next 
 
 Aqui estão algumas capturas de tela do projeto:
 
-![Captura de Tela 1](images/Principal.png)
+![Captura de Tela 1](images/image1.png)
 *Página principal*
 
 ![Captura de Tela 2](images/Encriptografada.png)
 *Mensagem Encriptografada*
+
+![Captura de Tela 3](images/image3.png)
+*Mensagem Encriptografada no Tablet (768x1174)*
+
+![Captura de Tela 4](images/image4.png)
+*Mensagem Encriptografada no Celular (375x933)*
