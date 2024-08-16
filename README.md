@@ -26,14 +26,24 @@ Este é um projeto de decodificador desenvolvido para o curso One - Oracle Next 
 
 Aqui estão algumas capturas de tela do projeto:
 
-![Página principal](images/image1.png)
+## Imagens do Projeto
+
+Aqui estão algumas capturas de tela do projeto:
+
+<img src="images/image1.png" alt="Página principal" width="500"/>  
 *Página principal*  
 
-![Mensagem Encriptografada](images/Encriptografada.png)
+<br/><br/>
+
+<img src="images/Encriptografada.png" alt="Mensagem Encriptografada" width="500"/>  
 *Mensagem Encriptografada*  
 
-![Mensagem Encriptografada no Tablet (768x1174)](images/image3.png)
+<br/><br/>
+
+<img src="images/image3.png" alt="Mensagem Encriptografada no Tablet (768x1174)" width="500"/>  
 *Mensagem Encriptografada no Tablet (768x1174)*  
 
-![Mensagem Encriptografada no Celular (375x933)](images/image4.png)
+<br/><br/>
+
+<img src="images/image4.png" alt="Mensagem Encriptografada no Celular (375x933)" width="500"/>  
 *Mensagem Encriptografada no Celular (375x933)*
