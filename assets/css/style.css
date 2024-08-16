@@ -1,3 +1,4 @@
+/* Estilos gerais */
 * {
   margin: 0;
   padding: 0;
@@ -119,6 +120,14 @@ textarea {
   margin: 20px;
 }
 
+/* Ajustes para proporção principal */
+@media (min-width: 1025px) {
+  .btn-criptografar,
+  .btn-descriptografar {
+    margin-left: 8px; /* Ajusta a margem à esquerda dos botões na proporção principal */
+  }
+}
+
 .btn-criptografar,
 .btn-descriptografar,
 .btn-copiar,
@@ -129,8 +138,8 @@ textarea {
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
-  transition: background 0.3s;
-  border: none;
+  transition: background 0.3s, color 0.3s;
+  border: 1px solid #0A3871; /* Adiciona a borda azul */
 }
 
 .btn-criptografar {
@@ -154,12 +163,17 @@ textarea {
 }
 
 .btn-copiar {
-  background-color: #D8DFE8;
+  background-color: white; /* Fundo branco */
   color: #0A3871;
+  width: 300px; /* Ajusta a largura do botão */
+  height: 65px; /* Ajusta a altura do botão */
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 10px 20px;
 }
 
 .btn-copiar:hover {
-  background-color: #ffffff;
+  background-color: #0A3871; /* Fundo azul ao passar o mouse */
   color: white;
 }
 
@@ -191,6 +205,7 @@ textarea {
     width: 90%;
     max-width: 100%;
     margin: 0 20px; /* Ajusta a margem para dispositivos menores */
+    margin-left: 40px;
   }
 
   .container-descriptografar img {
@@ -201,6 +216,17 @@ textarea {
     height: auto;
     min-height: 100px;
     font-size: 24px;
+  }
+
+  /* Ajuste para botões em tablets */
+  .botoes-enc-desc {
+    gap: 16px;
+    margin: 20px 10px; /* Adiciona margem para centralizar melhor os botões */
+    margin-left: 100px;
+  }
+  .btn-copiar {
+    margin-top: 10px;
+    margin-left: 160px;
   }
 }
 
@@ -226,12 +252,8 @@ textarea {
   .botoes-enc-desc {
     flex-direction: column;
     align-items: center;
-  }
-
-  .botoes-enc-desc button {
-    margin-bottom: 10px;
-    width: 90%;
-    font-size: 14px;
+    gap: 10px;
+    margin: 0; /* Remove a margem nos botões em celulares */
   }
 
   .btn-criptografar,
@@ -240,12 +262,16 @@ textarea {
     width: 90%;
     height: 50px;
     font-size: 14px;
+    margin: 0; /* Remove a margem dos botões em celulares */
   }
 
   .container-descriptografar {
     width: 100%;
     max-width: none;
-    margin: 0 10px; /* Ajusta a margem para dispositivos menores */
+    margin: 0 10px;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
   }
 
   .area-descriptografar textarea {
@@ -254,7 +280,12 @@ textarea {
     font-size: 20px;
   }
 
+  .btn-copiar {
+    margin-top: 10px;
+    margin-left: 5px; /* Remove a margem esquerda do botão copiar em celulares */
+  }
+
   #botaoReset {
-    display: none;
+    display: block;
   }
 }
