@@ -35,7 +35,7 @@ Aqui estão algumas capturas de tela do projeto:
 
 <br/><br/>
 
-<img src="images/Encriptografada.png" alt="Mensagem Encriptografada" width="500"/>  
+<img src="images/image2.png" alt="Mensagem Encriptografada" width="500"/>  
 *Mensagem Encriptografada*  
 
 <br/><br/>
